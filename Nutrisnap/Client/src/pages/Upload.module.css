@@ -1,0 +1,70 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96vw;
+  height: 96vh;
+  margin: auto;
+}
+
+.topcontainer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  height: 90vh;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed white;
+  height: 400px;
+  width: 400px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+.setimg {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+}
+
+.filename {
+  font-family: italic;
+  color: white;
+}
+
+.retry {
+  cursor: pointer;
+  padding: 10px 50px;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-style: oblique;
+  background-color: blue;
+  color: wheat;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.upload {
+  cursor: pointer;
+  padding: 10px 50px;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-style: oblique;
+  background-color: blue;
+  color: wheat;
+  border: 2px solid black;
+  border-radius: 5px;
+}
